@@ -60,7 +60,7 @@ li a:hover {
 .bg, .bg2, .bg3, .bg4{
     display:block;
     position:absolute;
-
+    background-repeat: no-repeat;
 }
 
 .bg{
