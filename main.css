@@ -1,0 +1,103 @@
+body{
+    font-family: arial, sans-serif, verdana;
+    height:5000px;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 3;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color: #111;
+}
+.name, .name2, .name3, .name4 {
+    font-family: 'Faster One', cursive;
+    text-align: center;
+    padding: auto;
+    padding-top: 90px;
+    font-size: 50px;
+    color: white;
+}
+.name {
+    font-size: 80px;
+    color: black;
+}
+.name3 {
+    padding-top: 120px;
+    color: black;
+}
+.name4 {
+    font-size: 40px;
+}
+.content{
+    position:fixed;
+    width:100%;
+    height:100%;
+}
+
+.bg, .bg2, .bg3, .bg4{
+    display:block;
+    position:absolute;
+
+}
+
+.bg{
+    width:100%;
+    min-height: 1000px;
+    background:url(images/bmw_m1.jpg) top center;
+    top:0%;
+    left:0%;
+    margin-top: -100px;
+    z-index:-1;
+}
+
+.bg2{
+    background:url(images/abimelec-arellano-ferrari-testarossa.jpg);
+    min-height: 1000px;
+    width: 100%;
+    top: 110%;
+    z-index: 1;
+    background-position: center;
+    margin-top: -100px;
+}
+
+.bg3{
+    background:url(images/porsche.jpg);
+    min-height: 1000px;
+    width: 100%;
+    top: 110%;
+    z-index: 2;
+    background-position: center;
+    margin-top: -100px;
+}
+.bg4 {
+    background:url(images/khyzyl-saleem-lbwhuracanlowweb.jpg);
+    min-height: 1000px;
+    width: 100%;
+    top: 110%;
+    z-index: 3;
+    background-position: center;
+    margin-top: -100px;
+}
